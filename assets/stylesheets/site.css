@@ -10,10 +10,10 @@
 /* ROOT OVERRIDER */
 
 body {
-    font-family: 'Jost', sans-serif;
     margin: 64px;
     background-color: var(--color-background);
     color: var(--color-text);
+    font-family: 'Jost', sans-serif;
     font-size: 16px;
     line-height: 1.333;
 }
@@ -27,6 +27,7 @@ h4,
 h5,
 h6 {
     font-family: 'Cormorant Garamond', serif;
+    line-height: 1;
 }
 
 h1 {
