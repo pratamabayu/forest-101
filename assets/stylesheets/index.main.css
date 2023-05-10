@@ -94,7 +94,7 @@
     background-position: center;
     background-repeat: no-repeat;
 
-    margin: 0px -32px;
+    margin: 0px -64px;
 }
 
 .hero-text {
@@ -124,34 +124,12 @@
     background-color: var(--color-main-darker);
 }
 
-/* FEATURE ELEMENT */
-
-.feature6-text h2 {
-    text-align: right;
-}
-
-.feature6-text p {
-    text-align: right;
-}
-
 /* TABLET MEDIA QUERY - ELEMENT */
 
 @media screen and (max-width: 768px) {
 
-    .feature5-text h2 {
-        text-align: center;
-    }
-
-    .feature5-text p {
-        text-align: center;
-    }
-
-    .feature6-text h2 {
-        text-align: center;
-    }
-
-    .feature6-text p {
-        text-align: center;
+    .hero {
+        margin: 0px -32px;
     }
 }
 

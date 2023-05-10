@@ -11,9 +11,11 @@
 
 body {
     font-family: 'Jost', sans-serif;
-    margin: 32px;
+    margin: 64px;
     background-color: var(--color-background);
     color: var(--color-text);
+    font-size: 16px;
+    line-height: 1.333;
 }
 
 /* TYPOGRAPHY OVERRIDER */
@@ -25,6 +27,30 @@ h4,
 h5,
 h6 {
     font-family: 'Cormorant Garamond', serif;
+}
+
+h1 {
+    font-size: 67px;
+}
+
+h2 {
+    font-size: 50px;
+}
+
+h3 {
+    font-size: 37px;
+}
+
+h4 {
+    font-size: 28px;
+}
+
+h5 {
+    font-size: 21px;
+}
+
+h6, p {
+    font-size: 16px;
 }
 
 /* LINK OVERRIDER */
@@ -63,3 +89,18 @@ a:hover {
     margin-right: auto;
 }
 
+/* TABLET MEDIA QUERY */
+
+@media screen and (max-width: 768px) {
+
+    body {
+        margin: 32px;
+    }
+}
+
+/* MOBILE PHONE MEDIA QUERY */
+
+@media screen and (max-width: 480px) {
+
+    /* Custom style goes here */
+}
