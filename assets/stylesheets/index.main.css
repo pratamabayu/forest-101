@@ -105,6 +105,10 @@
     transform: translate(-50%, -50%);
 }
 
+.hero-overlay h1 {
+    margin-top: 0px;
+}
+
 .hero-overlay h1, 
 .hero-overlay p {
     color: var(--color-background);
