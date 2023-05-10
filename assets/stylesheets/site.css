@@ -1,0 +1,65 @@
+/* VARIABLES */
+
+:root {
+    --color-main: #008000;
+    --color-main-darker: #007800;
+    --color-background: #f8f8f8;
+    --color-text: #333447;
+}
+
+/* ROOT OVERRIDER */
+
+body {
+    font-family: 'Jost', sans-serif;
+    margin: 32px;
+    background-color: var(--color-background);
+    color: var(--color-text);
+}
+
+/* TYPOGRAPHY OVERRIDER */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Cormorant Garamond', serif;
+}
+
+/* LINK OVERRIDER */
+
+a {
+    color: var(--color-main);
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+/* TEXT HELPER */
+
+.text-left {
+    text-align: left;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-justify {
+    text-align: justify;
+}
+
+/* IMAGE HELPER */
+
+.image-center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
