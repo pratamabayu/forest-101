@@ -26,7 +26,7 @@ header {
 }
 
 .navbar > ul > li > a:hover {
-    color: #333447;
+    color: var(--color-main-dark);
 }
 
 .navbar > ul > li.active {
